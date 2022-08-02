@@ -49,4 +49,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: This is deploy step
-        run: echo Hello from deploy j
+        run: echo Hello from deploy job
