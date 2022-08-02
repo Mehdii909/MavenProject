@@ -41,8 +41,9 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@v2
         with:
-          name: dist
-          path: dist        
+          name: github-action-artifact
+          path: target/ 
+          
   deploy:
     needs: test
     runs-on: ubuntu-latest
